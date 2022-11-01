@@ -5,10 +5,35 @@
 
 body{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    justify-content: start; 
+    justify-content: start;
+    align-items: center;
     background-color: black;
+}
 
+section{
+   display: flex;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   padding: 1rem;
+}
+
+nav{
+   color: white;
+}
+
+nav > ul{
+   display: flex;
+   gap: 12px;
+}
+nav > ul > li {
+   text-decoration: none;
+   list-style: none;
 }
 
 #header{
