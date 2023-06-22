@@ -1,0 +1,211 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h1, p {
+    margin: 0;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #F9F9FE;
+    color: #272727;
+    padding: 20px;
+    border-bottom: 1px solid #E8E0FF;
+  }
+  
+  nav {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px;
+  }
+  
+  .menu a {
+    margin-left: 10px;
+    color: #272727;
+    text-decoration: none;
+  }
+  
+  /* Estilos del main */
+  main {
+    padding: 0px;
+  }
+  
+  .home {
+    background-color: #F9F9FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hcontent-left {
+    padding: 30px;
+    margin-right: 20px;
+    margin-left: 100px;
+    width: 100%;
+  }
+  
+  .hcontent-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .ads-banner {
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: auto;
+    height: 90%;
+    width: 90%;
+  }
+  
+  .about {
+    background-color: #E4E4FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .acontent-left {
+    margin-left: 100px;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .acontent-right {
+    padding: 30px;
+    margin-right: 100px;
+    margin-left: 20px;
+    width: 100%;
+  }
+  
+  .banner {
+    background-color: red;
+    height: 30%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .banner img {
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+  .content-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: left;
+  }
+  
+  .contact-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .contact-image img {
+    width: auto;
+    height: 100%;
+  }
+  
+  .content-right {
+    flex: 1;
+    margin-right: 100px;
+  }
+  
+  .contact-form {
+    padding-left: 20px;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #33245B;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
