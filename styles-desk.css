@@ -1,0 +1,218 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Se agrega para incluir el tamaño del borde en el cálculo del ancho y alto */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.home-mob {
+  display: none;
+}
+
+.home-desk {
+  display: block;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1, p {
+  margin: 0;
+}
+
+/* Estilos del header */
+header {
+  background-color: #F9F9FE;
+  color: #272727;
+  padding: 20px;
+  border-bottom: 1px solid #E8E0FF;
+}
+
+nav {
+  margin: 0 auto; /* Se cambia margin-right y margin-left por margin: 0 auto; para centrar horizontalmente */
+  max-width: 900px; /* Se agrega un ancho máximo para el contenido del nav */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  max-width: 100%; /* Se agrega un ancho máximo para la imagen del logo */
+}
+
+.menu a {
+  margin-left: 10px;
+  color: #272727;
+  text-decoration: none;
+}
+
+/* Estilos del main */
+main {
+  padding: 0;
+}
+
+.home {
+  background-color: #F9F9FE;
+  display: flex;
+  flex-wrap: wrap; /* Se agrega flex-wrap para que los elementos se ajusten en caso de falta de espacio */
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.hcontent-left {
+  padding: 30px;
+  margin-right: 20px;
+  flex: 1; /* Se agrega flex: 1 para que ocupe el espacio restante */
+}
+
+.hcontent-right {
+  margin-left: auto;
+  margin-right: 20px; /* Se ajusta el margen derecho */
+  flex: 1; /* Se agrega flex: 1 para que ocupe el espacio restante */
+}
+
+.ads-banner {
+  padding: 20px;
+  height: 100%; /* Se cambia el height a 100% */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  background-color: #E4E4FF;
+  display: flex;
+  flex-wrap: wrap; /* Se agrega flex-wrap para que los elementos se ajusten en caso de falta de espacio */
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.acontent-left {
+  margin-right: 20px;
+  flex: 1; /* Se agrega flex: 1 para que ocupe el espacio restante */
+}
+
+.acontent-right {
+  padding: 30px;
+  margin-left: auto;
+  flex: 1; /* Se agrega flex: 1 para que ocupe el espacio restante */
+}
+
+.banner {
+  background-color: red;
+  height: 30%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden; /* Se agrega overflow: hidden para recortar las imágenes que excedan el tamaño del banner */
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Se agrega object-fit: cover para ajustar las imágenes al tamaño del banner */
+}
+
+/* Estilos para el formulario de contacto */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.content-left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%; /* Se agrega un max-height para evitar que la imagen se desborde */
+  object-fit: contain;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Se agrega un max-width para evitar que la imagen se desborde */
+}
+
+.content-right {
+  flex: 1;
+  margin-right: 20px; /* Se ajusta el margen derecho */
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;  
+  padding: 50px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;  
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #8B66FF;
+}
+
+.contact-form button {
+  background: #8B66FF;  
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #33245B;
+}
+
+footer {
+  background-color: #33245B;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
