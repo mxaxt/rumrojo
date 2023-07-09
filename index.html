@@ -8,9 +8,25 @@
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="styles-mob.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" href="styles-desk.css">
 
-
-
-    
+    <style>
+      @media screen and (max-width: 768px) {
+        #iframe1 {
+          display: block;
+        }
+        #iframe2 {
+          display: none;
+        }
+      }
+  
+      @media screen and (min-width: 769px) {
+        #iframe1 {
+          display: none;
+        }
+        #iframe2 {
+          display: block;
+        }
+      }
+    </style>
 </head>
 
 <body>
@@ -35,22 +51,26 @@
       </div>
       <div class="hcontent-right">
         <div class="ads-banner">
-          <img src="banner_home_desk.gif" media="screen and (min-width: 769px)" class="home-desk" alt="banner home">
-          <img src="banner_home_mob.gif" media="screen and (max-width: 768px)" class="home-mob" alt="banner home">
-        </div>
+          <iframe id="iframe2" src="banners/home/banner_home_desk.gif" frameborder="0" scrolling="no"></iframe>
+          <iframe id="iframe1" src="banners/home/banner_home_mob.gif" frameborder="0" scrolling="no"></iframe>
       </div>
+        </div>
+        
     </section>
 
     <section id="about" class="about">
       <div class="acontent-left">
         <div class="banner">
-            <img src="https://www.shutterstock.com/shutterstock/photos/1655069218/display_1500/stock-photo-panoramic-japanese-spring-sakura-cherry-blossoms-x-size-website-full-banner-background-d-1655069218.jpg" alt="Perrito">
+          <iframe id="iframe2" src="banners/about_desk_01/index.html" frameborder="0" scrolling="no"></iframe>
+          <iframe id="iframe1" src="banners/about_mob_01/index.html" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="banner">
-            <img src="https://www.shutterstock.com/shutterstock/photos/1655069218/display_1500/stock-photo-panoramic-japanese-spring-sakura-cherry-blossoms-x-size-website-full-banner-background-d-1655069218.jpg" alt="Perrito">
+          <iframe id="iframe2" src="banners/about_desk_02/index.html" frameborder="0" scrolling="no"></iframe>
+          <iframe id="iframe1" src="banners/about_mob_02/index.html" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="banner">
-            <img src="https://www.shutterstock.com/shutterstock/photos/1655069218/display_1500/stock-photo-panoramic-japanese-spring-sakura-cherry-blossoms-x-size-website-full-banner-background-d-1655069218.jpg" alt="Perrito">
+          <iframe id="iframe2" src="banners/about_desk_03/index.html" frameborder="0" scrolling="no"></iframe>
+          <iframe id="iframe1" src="banners/about_mob_03/index.html" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
       <div class="acontent-right">

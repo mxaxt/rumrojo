@@ -4,15 +4,6 @@ body {
   margin: 0 auto;   
 }
 
-.home-desk {
-  display: none;
-}
-
-.home-mob {
-  display: block;
-  margin-bottom: 25px;
-}
-
 nav {  
   background: #333;
   padding: 20px;
@@ -35,10 +26,35 @@ nav a {
   text-align: center;    
   margin: 50px 0;   
 }
+.hcontent-right {
+  align-items: center;
+}
 
-.ads-banner img,
-.contact-image img,
-.banner img {
+.ads-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.ads-banner iframe {
+  width: 300px;
+  height: 250px;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.banner iframe {
+  height: 50px;
+  width: 300px;
+}
+
+.contact-image img {
   width: 100%;
   height: auto; 
 }
